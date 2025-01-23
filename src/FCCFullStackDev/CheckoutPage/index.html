@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+</head>
+<body>
+  <h1>Checkout</h1>
+  <section>
+    <h2>Your Cart</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+         alt="A Rubix cube viewed from a top side angle with each row turned to 45 degrees">
+  </section>
+  <section>
+    <h2>Payment Information</h2>
+    <form id="payment-form">
+      <label for="card-name">Name on Card</label>
+      <input type="text" name="card-name" id="card-name" required aria-required="true">
+      <label for="card-number">Card Number</label>
+      <input type="text" name="card-number" id="card-number" required aria-required="true">
+      <label for="expiry-month">Expiry Month</label>
+      <input type="text" name="expiry-month" id="expiry-month" required aria-required="true">
+      <input type="submit" value="Continue to checkout" name="checkout" id="checkout">
+    </form>
+  </section>
+</body>
+</html>
