@@ -1,0 +1,46 @@
+.blog-post-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.post-img {
+    width: 100%;
+    margin: auto 0;
+    border-bottom: 5px solid orange;
+}
+
+.post-content {
+    padding: 0 10px 10px 10px;
+}
+
+.post-title {
+    font-family: "JetBrains Mono", Inter, system-ui, sans-serif;
+    color: darkslategray;
+    text-align: left;
+}
+
+.post-excerpt {
+    font-family: Inter, system-ui, sans-serif;
+    color: dimgrey;
+    text-align: left;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 7px;
+    margin: 3px;
+    width: 70%;
+    outline: 1px solid black;
+    border-radius: 3px;
+    background-color: darkslategray;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: darkorange;
+}
