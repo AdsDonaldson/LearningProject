@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top left, hsla(173, 58%, 39%, 0.5),  hsla(173, 58%, 39%, 0.9));
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: hsl(27, 87%, 67%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-container {
+    background-color: hsl(197, 37%, 24%);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem;
+    max-width: 350px;
+    width: 70vw;
+    display: block;
+
+}
+
+label {
+    margin: 0.2rem 0;
+    color: hsl(43, 74%, 66%);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    margin: 0 0 1rem 0;
+    border-radius: 3px;
+    border: none;
+    height: 2rem;
+}
+
+textarea {
+    height: unset;
+}
+
+button {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    width: 40%;
+    min-width: 100px;
+    border-radius: 10px;
+    height: 2.5rem;
+    background: linear-gradient(45deg, hsl(12, 76%, 61%), hsl(43, 74%, 66%));
+    color: hsl(197, 37%, 24%);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: box-shadow 0.3s, font-size 0.3s;
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(45deg, hsl(12, 76%, 61%), hsl(43, 74%, 66%));
+    box-shadow: 3px 3px 10px hsl(12, 76%, 61%);
+    font-size: 1.2rem;
+}
