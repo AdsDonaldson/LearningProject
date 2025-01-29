@@ -1,0 +1,66 @@
+html {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+#main {
+    max-width: 800px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffb703;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #1B263B;
+    padding: 30px;
+    border-radius: 15px;
+    color: #E0E1DD;
+    margin: 0;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.quote {
+    color: lightgray;
+    background-color: #1B263B;
+    padding: 20px;
+    border-radius: 15px;
+    font-style: italic;
+}
+
+.quote p {
+    margin: 1em 0 0.5em 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.achievements-list li {
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+
+.link {
+    text-decoration: none;
+    color: #778DA9;
+}
