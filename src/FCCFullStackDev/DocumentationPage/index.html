@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Documentation</title>
+</head>
+<body>
+<nav id="navbar">
+    <header>Python Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Getting_Started">Getting Started</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Hello_World">Hello World</a>
+
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a high level dynamically typed programming and is one of the most popular and accessible
+            programming languages for beginners.</p>
+        <p>Python is a highly human-readable language, with many advanced features such as memory management, type
+            conversion and an extensive library of 1st and 3rd party modules to perform a wide range of tasks. Python is
+            widely used for data science, mathematics and scripting. </p>
+    </section>
+    <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header>
+        <p>To get started, install a python version from <a href="">the Python Website</a>. Choose a version that will
+            meet your projects needs, a well-supported modern version is 3.10. Make sure to install the following:</p>
+        <ul>
+            <li>A code editor or IDE</li>
+            <li>A python interpreter</li>
+        </ul>
+        <p> Run the following command in the terminal to verify python has been installed:</p>
+        <pre class="Python">
+            python.exe
+        </pre>
+        <p>A python instance will open containing your version information and allow you to enter python commands to the
+            terminal. See the following example for a machine with python 3.8.6 installed.</p>
+        <pre class="Python">
+            Python 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:37:30) [MSC v.1927 32 bit (Intel)] on win32 <br>
+            Type "help", "copyright", "credits" or "license" for more information. <br>
+            >>> <br>
+        </pre>
+    </section>
+    <section class="main-section" id="Variables_and_Data_Types">
+        <header>Variables and Data Types</header>
+        <p>Variables in Python are names assigned to objects in python that can be referenced in code. There are many
+            base data types in Python, some of the most common are int, float and string. Python is dynamically typed,
+            which means variables are assigned without providing the data type, the compiler will inference what the
+            type should be from the data. Below is an example of assigning values of int, float and string.</p>
+        <pre class="Python">
+            my_int = 1
+            my_float = 3.14
+            my_string = "Hello World"
+        </pre>
+        <p>A list of the most commonly used base datatypes in Python is:</p>
+        <ul>
+            <li>Int</li>
+            <li>Float</li>
+            <li>String</li>
+            <li>List</li>
+            <li>Dictionary</li>
+        </ul>
+        <p>Python does not use a line terminator like c/c++ or javascript, the compiler infers the end of the line from
+            whitespace and indentation. Python supports type casting, which converts one type to another based on
+            context. For example, if you assign <code>my_int = 1</code> and then re-assign it to be <code>my_int =
+                my_int + 1.5</code>, the variable will cast the original int to a float to add the float 1.5.</p>
+    </section>
+    <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Python functions are defined with the keyword <code class="Python">def</code> followed by the function name,
+            then a set of parentheses containing the function input parameters followed by a colon. An example is shown
+            below:</p>
+        <pre class="Python">
+            def print_my_name(my_name):
+                print("Hello, my name is: " + my_name)
+        </pre>
+        <p>This function takes in the variable <code>my_name</code>, and prints out a string using that variable. The
+            keyword <code>def</code> in the example is the keyword which tells the compiler that a function is to
+            follow. There are many keywords in python, some include <code>class</code> for class declarations and <code>for</code>
+            for loops.</p>
+    </section>
+    <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>The most simple introduction example to a programming language is called the <i>Hello World</i> example. This
+            is often a function that prints out the text "Hello World!" to the console. The python version of this is
+            shown below:</p>
+        <pre class="Python">
+            print("Hello World!")
+        </pre>
+        <p>In python, this is very easy. This shows how simple python is to get started.</p>
+    </section>
+</main>
+</body>
+</html>
